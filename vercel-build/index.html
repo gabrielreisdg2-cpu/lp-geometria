@@ -1,0 +1,1377 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<title>Escola Megap+Lub — Domine a Geometria Veicular e Fature R$ 10 Mil/mês a Mais</title>
+<meta name="description" content="O método definitivo de Geometria Veicular para mecânicos: alinhamento dianteiro, traseiro, cambagem e cáster. Pare de perder cliente e dobre o ticket da sua oficina." />
+<meta name="theme-color" content="#0a0a0b" />
+
+<!-- ============================ META PIXEL ============================ -->
+<script>
+(function(){
+  var h = location.hostname;
+  var sandboxed = (window.top !== window.self) || /sandbox|preview|claude|anthropic|local/i.test(h) || h === '' || h === 'localhost' || /^127\./.test(h);
+  if(sandboxed){ window.fbq = function(){}; return; }
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;t.onerror=function(){};
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  try{fbq('init', '1526425278996802');fbq('track','PageView');fbq('track','ViewContent',{content_name:'LP Geometria Veicular',content_category:'Curso',value:297.00,currency:'BRL'});}catch(e){}
+})();
+</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1526425278996802&ev=PageView&noscript=1" alt="" /></noscript>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --bg:#0a0a0b; --bg-2:#111113; --bg-3:#17171a;
+    --line:#26262b; --line-2:#33333a;
+    --ink:#f5f3ee; --ink-dim:#a8a8a4; --ink-mute:#6b6b6f;
+    --orange:#ff6a13; --orange-2:#ff8a3d; --orange-deep:#cc4f00; --orange-glow:rgba(255,106,19,0.45);
+    --green:#22c55e; --green-2:#16a34a; --green-glow:rgba(34,197,94,0.5);
+    --red:#ef4444; --yellow:#facc15;
+    --max:1180px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+  html,body{background:var(--bg);color:var(--ink);font-family:'Inter',system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.55;overflow-x:hidden}
+  img{max-width:100%;display:block}
+  a{color:inherit;text-decoration:none}
+  button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
+  .container{width:100%;max-width:var(--max);margin:0 auto;padding:0 18px}
+  .display{font-family:'Bebas Neue',Impact,sans-serif;letter-spacing:0.005em;line-height:0.92;font-weight:400}
+  .mono{font-family:'JetBrains Mono',monospace}
+
+  /* ============ URGENCY BAR ============ */
+  .urgency-bar{
+    background:linear-gradient(90deg,#cc4f00,#ff6a13 50%,#cc4f00);
+    color:#0a0a0b;text-align:center;padding:10px 14px;
+    font-size:12.5px;font-weight:800;letter-spacing:0.02em;
+    position:relative;z-index:30;
+  }
+  @media(min-width:520px){.urgency-bar{font-size:13.5px}}
+  .urgency-bar strong{font-weight:900;text-transform:uppercase}
+  .pulse-dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:#0a0a0b;margin-right:6px;vertical-align:middle;animation:pulse 1.2s infinite}
+  @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:0.4;transform:scale(0.7)}}
+  @keyframes glow{0%,100%{filter:drop-shadow(0 0 18px rgba(255,106,19,0.55)) drop-shadow(0 0 0px rgba(255,106,19,0.3))}50%{filter:drop-shadow(0 0 36px rgba(255,106,19,0.85)) drop-shadow(0 0 60px rgba(255,106,19,0.5))}}
+  @keyframes float-y{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+  @keyframes spin-slow{to{transform:rotate(360deg)}}
+  @keyframes shine{0%{left:-120%}55%,100%{left:120%}}
+
+  /* ============ NAV ============ */
+  .nav{
+    position:sticky;top:0;z-index:25;
+    background:rgba(10,10,11,0.85);
+    backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+    border-bottom:1px solid var(--line);
+  }
+  .nav-inner{display:flex;align-items:center;justify-content:space-between;padding:10px 14px;max-width:var(--max);margin:0 auto;gap:10px}
+  .logo{display:flex;align-items:center;gap:10px;flex-shrink:1;min-width:0}
+  .logo img{height:52px;width:auto;display:block;flex-shrink:0;filter:drop-shadow(0 4px 14px rgba(255,106,19,0.4)) contrast(1.05) saturate(1.05)}
+  .logo-word{display:flex;flex-direction:column;line-height:1;min-width:0}
+  .logo-word b{font-family:'Bebas Neue';font-size:18px;letter-spacing:0.04em;color:var(--ink);white-space:nowrap}
+  .logo-word b em{color:var(--orange);font-style:normal}
+  .logo-word small{font-size:9px;letter-spacing:0.16em;color:var(--ink-mute);text-transform:uppercase;margin-top:2px;white-space:nowrap}
+  @media(max-width:380px){.logo img{height:44px}.logo-word b{font-size:16px}.logo-word small{font-size:8.5px;letter-spacing:0.12em}}
+  @media(min-width:520px){.logo img{height:60px}.logo-word b{font-size:20px}.logo-word small{font-size:10px}}
+  .nav-cta{
+    background:linear-gradient(180deg,var(--green),var(--green-2));color:#04130a;font-weight:900;font-size:12px;
+    padding:11px 14px;border-radius:9px;letter-spacing:0.02em;
+    box-shadow:0 0 0 1px rgba(0,0,0,0.2) inset, 0 6px 20px var(--green-glow);
+    text-transform:uppercase;white-space:nowrap;
+    transition:transform .15s ease;
+  }
+  @media(min-width:520px){.nav-cta{font-size:13px;padding:12px 18px}}
+  .nav-cta:hover{transform:translateY(-1px)}
+
+  /* ============ HERO ============ */
+  .hero{
+    position:relative;
+    padding:0 0 4px;
+    background:
+      radial-gradient(ellipse 90% 60% at 50% 0%, rgba(255,106,19,0.22), transparent 60%),
+      radial-gradient(ellipse 60% 40% at 90% 30%, rgba(255,106,19,0.1), transparent 60%),
+      var(--bg);
+    overflow:hidden;
+  }
+  @media(min-width:720px){.hero{padding:24px 0 56px}}
+  .hero::before{
+    content:"";position:absolute;inset:0;
+    background-image:
+      linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+    background-size:48px 48px;
+    mask-image:radial-gradient(ellipse 80% 70% at 50% 30%, #000 30%, transparent 80%);
+    -webkit-mask-image:radial-gradient(ellipse 80% 70% at 50% 30%, #000 30%, transparent 80%);
+    pointer-events:none;
+  }
+  .hero-grid{display:grid;grid-template-columns:1fr;gap:8px;align-items:center;justify-items:center;text-align:center;position:relative;z-index:1}
+  .hero-grid > div:first-child{display:flex;flex-direction:column;align-items:center;max-width:720px;margin:0 auto}
+  @media(min-width:960px){.hero-grid{grid-template-columns:1.1fr 1fr;gap:48px;justify-items:start;text-align:left}.hero-grid > div:first-child{align-items:flex-start;margin:0}.hero-visual{display:block}}
+
+  .hero-logo-block{width:100%;display:flex;justify-content:center;margin:0;line-height:0}
+  @media(min-width:960px){.hero-logo-block{justify-content:flex-start;margin:0 0 24px}}
+
+  .hero-logo{position:relative;display:block;margin:0 auto;width:fit-content;line-height:0;font-size:0}
+  .hero-logo::before{
+    content:"";position:absolute;inset:-10% -15%;
+    background:radial-gradient(ellipse at center,rgba(255,106,19,0.55),transparent 70%);
+    z-index:0;animation:pulse-bg 3s ease-in-out infinite;
+  }
+  @keyframes pulse-bg{0%,100%{opacity:0.6;transform:scale(1)}50%{opacity:1;transform:scale(1.08)}}
+  .hero-logo img{
+    position:relative;z-index:1;display:block;
+    height:auto;width:96vw;max-width:560px;object-fit:contain;
+    filter:drop-shadow(0 12px 28px rgba(0,0,0,0.7)) drop-shadow(0 0 18px rgba(255,106,19,0.22));
+    animation:glow 2.6s ease-in-out infinite, float-y 4s ease-in-out infinite;
+  }
+  @media(min-width:520px){.hero-logo img{width:80vw;max-width:520px}}
+  @media(min-width:760px){.hero-logo img{width:70vw;max-width:560px}}
+  @media(min-width:960px){.hero-logo img{width:auto;height:240px;max-width:none}}
+  @media(min-width:1200px){.hero-logo img{height:280px}}
+  .hero-logo .spark{position:absolute;width:4px;height:4px;border-radius:50%;background:var(--orange);box-shadow:0 0 12px var(--orange);z-index:0}
+  .hero-logo .spark:nth-child(2){top:20%;left:8%;animation:float-y 2.4s ease-in-out infinite}
+  .hero-logo .spark:nth-child(3){bottom:18%;right:10%;animation:float-y 3.1s ease-in-out infinite reverse}
+  .hero-logo .spark:nth-child(4){top:50%;right:0%;animation:float-y 2.7s ease-in-out infinite}
+
+  .eyebrow{
+    display:inline-flex;align-items:center;gap:8px;
+    background:rgba(255,106,19,0.1);border:1px solid rgba(255,106,19,0.35);
+    color:var(--orange-2);padding:7px 14px;border-radius:999px;
+    font-size:10.5px;font-weight:800;letter-spacing:0.18em;text-transform:uppercase;
+  }
+  .eyebrow .dot{width:6px;height:6px;border-radius:50%;background:var(--orange);box-shadow:0 0 10px var(--orange);animation:pulse 1.5s infinite}
+
+  .hero h1{
+    font-family:'Bebas Neue';
+    font-size:clamp(40px,9.5vw,82px);
+    line-height:0.92;letter-spacing:0.005em;
+    margin:18px 0 18px;text-wrap:balance;
+  }
+  .hero h1 .accent{color:var(--orange);position:relative;display:inline-block}
+  .hero h1 .accent::after{content:"";position:absolute;left:0;right:0;bottom:-4px;height:4px;background:var(--orange)}
+  .hero h1 .scratch{
+    color:var(--ink-mute);text-decoration:line-through;text-decoration-color:var(--red);
+    text-decoration-thickness:3px;font-size:0.55em;display:block;margin-bottom:10px;letter-spacing:0.02em;
+  }
+  .hero h1 .yellow{color:var(--yellow)}
+
+  .hero p.lead{font-size:clamp(15px,3.6vw,18px);color:var(--ink-dim);max-width:560px;margin:0 auto 24px;text-wrap:pretty}
+  @media(min-width:960px){.hero p.lead{margin:0 0 24px}}
+  .hero p.lead b{color:var(--ink);font-weight:700}
+  .hero p.lead mark{background:rgba(250,204,21,0.18);color:var(--yellow);padding:2px 4px;border-radius:3px}
+
+  .trust-row{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:22px;justify-content:center}
+  @media(min-width:960px){.trust-row{justify-content:flex-start}}
+  .trust-chip{
+    display:inline-flex;align-items:center;gap:6px;
+    background:var(--bg-2);border:1px solid var(--line);
+    padding:6px 10px;border-radius:999px;font-size:11px;color:var(--ink-dim);
+  }
+  .trust-chip svg{width:13px;height:13px;color:var(--green);flex-shrink:0}
+  .trust-chip b{color:var(--ink);font-weight:700}
+
+  .hero-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:0 0 24px;padding:18px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  @media(min-width:520px){.hero-stats{gap:18px}}
+  .stat b{font-family:'Bebas Neue';font-size:clamp(28px,7vw,38px);color:var(--orange);display:block;line-height:1}
+  .stat span{font-size:10.5px;color:var(--ink-dim);text-transform:uppercase;letter-spacing:0.06em;line-height:1.3;display:block;margin-top:2px}
+
+  .cta-row{display:flex;flex-direction:column;gap:12px;align-items:center;width:100%;max-width:480px}
+  @media(min-width:520px){.cta-row{flex-direction:row;flex-wrap:wrap;justify-content:center;max-width:none}}
+  @media(min-width:960px){.cta-row{justify-content:flex-start}}
+  .btn-buy{
+    display:inline-flex;align-items:center;justify-content:center;gap:10px;
+    background:linear-gradient(180deg,var(--green),var(--green-2));color:#04130a;font-weight:900;
+    padding:18px 22px;border-radius:12px;font-size:15px;letter-spacing:0.01em;text-transform:uppercase;
+    box-shadow:0 0 0 1px rgba(0,0,0,0.25) inset, 0 12px 36px var(--green-glow);
+    position:relative;overflow:hidden;text-align:center;line-height:1.15;
+    transition:transform .15s ease;
+    width:100%;
+  }
+  @media(min-width:520px){.btn-buy{width:auto;font-size:16px;padding:18px 28px}}
+  .btn-buy::before{content:"";position:absolute;top:0;left:-120%;width:60%;height:100%;background:linear-gradient(90deg,transparent,rgba(255,255,255,0.55),transparent);animation:shine 2.6s infinite}
+  .btn-buy:hover{transform:translateY(-2px)}
+  .btn-buy svg{width:18px;height:18px;flex-shrink:0}
+  .secure{font-size:12px;color:var(--ink-dim);display:flex;align-items:center;gap:6px}
+  .secure svg{width:14px;height:14px;color:var(--green);flex-shrink:0}
+
+  .hero-visual{display:none;
+    position:relative;aspect-ratio:4/5;max-width:440px;margin:0 auto;
+    background:radial-gradient(ellipse at 50% 30%, rgba(255,106,19,0.3), transparent 70%),linear-gradient(180deg,var(--bg-2),var(--bg-3));
+    border:1px solid var(--line);border-radius:18px;overflow:hidden;
+  }
+  .hero-visual::before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(255,106,19,0.05) 1px, transparent 1px),linear-gradient(90deg, rgba(255,106,19,0.05) 1px, transparent 1px);background-size:24px 24px}
+  .hv-content{position:absolute;inset:0;display:grid;place-items:center;padding:24px}
+  .hv-wheel{width:80%;aspect-ratio:1;border-radius:50%;border:2px dashed rgba(255,106,19,0.5);display:grid;place-items:center;position:relative;animation:spin-slow 30s linear infinite}
+  .hv-inner{width:65%;aspect-ratio:1;border-radius:50%;border:1px solid var(--line-2);background:repeating-conic-gradient(from 0deg, var(--bg-3) 0deg 10deg, var(--bg-2) 10deg 20deg);display:grid;place-items:center;position:relative}
+  .hv-hub{width:30%;aspect-ratio:1;border-radius:50%;background:linear-gradient(135deg,var(--orange),var(--orange-deep));box-shadow:0 0 30px rgba(255,106,19,0.6)}
+  .hv-label{position:absolute;background:var(--bg);border:1px solid var(--orange);color:var(--orange);font-size:10px;font-weight:700;letter-spacing:0.1em;padding:5px 10px;border-radius:4px;text-transform:uppercase;font-family:'JetBrains Mono';animation:counter-rotate 30s linear infinite}
+  @keyframes counter-rotate{to{transform:rotate(-360deg)}}
+  .hv-label.l1{top:8%;left:50%;transform:translateX(-50%)}
+  .hv-label.l2{bottom:8%;left:50%;transform:translateX(-50%)}
+  .hv-label.l3{top:50%;left:4%;transform:translateY(-50%)}
+  .hv-label.l4{top:50%;right:4%;transform:translateY(-50%)}
+  .hv-overlay{position:absolute;left:18px;bottom:18px;right:18px;display:flex;justify-content:space-between;align-items:end;font-family:'JetBrains Mono';font-size:10px;color:var(--ink-mute);text-transform:uppercase;letter-spacing:0.1em;z-index:2}
+  .hv-overlay .live{display:flex;align-items:center;gap:6px;color:var(--green)}
+  .hv-overlay .live::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--green);box-shadow:0 0 8px var(--green);animation:pulse 1.2s infinite}
+
+  /* ============ SCARCITY BANNER ============ */
+  .scarcity{
+    background:linear-gradient(180deg,#1f0f04,#0a0a0b);
+    border-top:1px solid rgba(255,106,19,0.25);border-bottom:1px solid rgba(255,106,19,0.25);
+    padding:18px 0;
+  }
+  .scarcity-inner{display:flex;flex-direction:column;align-items:center;gap:8px;text-align:center}
+  .scarcity-text{font-size:13px;color:var(--ink-dim);letter-spacing:0.02em}
+  .scarcity-text b{color:var(--yellow)}
+  .scarcity-bar{width:100%;max-width:440px;height:8px;background:var(--bg-3);border-radius:999px;overflow:hidden;border:1px solid var(--line)}
+  .scarcity-fill{height:100%;width:84%;background:linear-gradient(90deg,var(--orange),var(--red));border-radius:999px;position:relative}
+  .scarcity-fill::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,transparent,rgba(255,255,255,0.4),transparent);animation:shine 2s infinite}
+  .scarcity-num{font-family:'Bebas Neue';color:var(--orange);font-size:18px}
+
+  /* ============ COUNTDOWN ============ */
+  .countdown-section{
+    padding:36px 0;
+    background:linear-gradient(180deg,#1a0d05,#0a0a0b);
+  }
+  .countdown-wrap{text-align:center}
+  .countdown-eyebrow{display:inline-block;background:rgba(239,68,68,0.12);color:var(--red);padding:5px 12px;border-radius:999px;font-size:10.5px;font-weight:800;letter-spacing:0.2em;text-transform:uppercase;margin-bottom:12px;border:1px solid rgba(239,68,68,0.3)}
+  .countdown-title{font-family:'Bebas Neue';font-size:clamp(24px,5vw,38px);color:var(--ink);margin-bottom:6px;line-height:1}
+  .countdown-title b{color:var(--orange)}
+  .countdown-sub{font-size:13px;color:var(--ink-dim);margin-bottom:20px;letter-spacing:0.02em;text-wrap:pretty}
+  .countdown-sub b{color:var(--ink)}
+  .countdown-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;max-width:520px;margin:0 auto}
+  @media(min-width:520px){.countdown-grid{gap:14px}}
+  .cd-cell{
+    background:var(--bg-2);border:1px solid var(--line);border-top:2px solid var(--orange);
+    border-radius:10px;padding:14px 6px;box-shadow:0 6px 24px rgba(255,106,19,0.08);
+  }
+  .cd-cell .num{font-family:'Bebas Neue';font-size:clamp(34px,9vw,52px);color:var(--orange);line-height:1}
+  .cd-cell .lab{font-size:10px;color:var(--ink-dim);text-transform:uppercase;letter-spacing:0.15em;margin-top:4px}
+
+  /* ============ SECTIONS ============ */
+  .section{padding:56px 0}
+  @media(min-width:720px){.section{padding:80px 0}}
+  .section-head{text-align:center;max-width:760px;margin:0 auto 36px}
+  .section-eyebrow{display:inline-block;font-family:'JetBrains Mono';font-size:11px;color:var(--orange);letter-spacing:0.25em;text-transform:uppercase;margin-bottom:12px}
+  .section-eyebrow::before,.section-eyebrow::after{content:"//";opacity:0.5;margin:0 6px}
+  .section-title{font-family:'Bebas Neue';font-size:clamp(32px,7vw,56px);line-height:0.95;text-wrap:balance;margin-bottom:14px}
+  .section-title em{font-style:normal;color:var(--orange)}
+  .section-title .yellow{color:var(--yellow);font-style:normal}
+  .section-sub{font-size:15.5px;color:var(--ink-dim);max-width:620px;margin:0 auto;text-wrap:pretty}
+  .section-sub b{color:var(--ink)}
+
+  /* ============ VSL/PROMISE BLOCK ============ */
+  .promise{
+    background:linear-gradient(135deg,#1a0d05,#0a0a0b);
+    border:1px solid rgba(255,106,19,0.3);border-radius:16px;padding:28px 22px;
+    text-align:center;margin:20px auto 0;max-width:780px;position:relative;overflow:hidden;
+  }
+  .promise::before{content:"";position:absolute;top:-50%;right:-20%;width:300px;height:300px;background:radial-gradient(circle,rgba(255,106,19,0.2),transparent 70%);pointer-events:none}
+  .promise h3{font-family:'Bebas Neue';font-size:clamp(24px,4.8vw,38px);margin-bottom:10px;position:relative;line-height:1}
+  .promise h3 em{color:var(--orange);font-style:normal}
+  .promise p{color:var(--ink-dim);font-size:15px;position:relative;text-wrap:pretty}
+  .promise p b{color:var(--ink)}
+
+  /* ============ PAIN ============ */
+  .pain-list{display:grid;grid-template-columns:1fr;gap:12px;max-width:780px;margin:0 auto}
+  @media(min-width:720px){.pain-list{grid-template-columns:1fr 1fr}}
+  .pain{display:flex;gap:14px;align-items:flex-start;background:var(--bg-2);border:1px solid var(--line);padding:18px;border-radius:12px}
+  .pain-x{flex:0 0 32px;height:32px;border-radius:8px;background:rgba(239,68,68,0.12);color:var(--red);display:grid;place-items:center;font-weight:900;font-size:18px}
+  .pain p{font-size:14px;color:var(--ink-dim);line-height:1.5}
+  .pain p b{color:var(--ink)}
+
+  /* ============ FOR-WHO ============ */
+  .for-who{display:grid;grid-template-columns:1fr;gap:18px;max-width:880px;margin:0 auto}
+  @media(min-width:720px){.for-who{grid-template-columns:1fr 1fr}}
+  .for-card{background:var(--bg-2);border:1px solid var(--line);border-radius:14px;padding:24px}
+  .for-card h4{font-family:'Bebas Neue';font-size:22px;margin-bottom:14px;display:flex;align-items:center;justify-content:center;gap:10px;text-align:center}
+  .for-card.yes h4{color:var(--green)}
+  .for-card.no h4{color:var(--red)}
+  .for-card ul{list-style:none;display:flex;flex-direction:column;gap:10px}
+  .for-card li{font-size:13.5px;color:var(--ink-dim);padding-left:26px;position:relative;line-height:1.5}
+  .for-card.yes li::before{content:"";position:absolute;left:0;top:2px;width:18px;height:18px;border-radius:50%;background:rgba(34,197,94,0.15);border:1.5px solid var(--green)}
+  .for-card.yes li::after{content:"";position:absolute;left:5px;top:7px;width:6px;height:9px;border-right:2px solid var(--green);border-bottom:2px solid var(--green);transform:rotate(45deg)}
+  .for-card.no li::before{content:"×";position:absolute;left:0;top:0;width:18px;height:18px;border-radius:50%;background:rgba(239,68,68,0.15);border:1.5px solid var(--red);color:var(--red);font-weight:900;display:grid;place-items:center;font-size:13px;line-height:1}
+
+  /* ============ MODULES ============ */
+  .modules-grid{display:grid;grid-template-columns:1fr;gap:14px}
+  @media(min-width:720px){.modules-grid{grid-template-columns:1fr 1fr}}
+  @media(min-width:1000px){.modules-grid{grid-template-columns:repeat(3,1fr)}}
+  .module{background:var(--bg-2);border:1px solid var(--line);border-radius:14px;padding:24px;transition:transform .2s ease, border-color .2s ease;position:relative}
+  .module:hover{transform:translateY(-3px);border-color:rgba(255,106,19,0.5)}
+  .module-num{font-family:'Bebas Neue';font-size:13px;color:var(--orange);letter-spacing:0.2em;margin-bottom:8px;display:flex;align-items:center;gap:8px}
+  .module-num::before{content:"";width:24px;height:1px;background:var(--orange)}
+  .module h3{font-family:'Bebas Neue';font-size:24px;margin-bottom:10px;line-height:1}
+  .module p{font-size:13.5px;color:var(--ink-dim);margin-bottom:14px}
+  .module ul{list-style:none}
+  .module li{font-size:13px;color:var(--ink);padding:8px 0 8px 22px;position:relative;border-bottom:1px solid var(--line)}
+  .module li:last-child{border-bottom:none}
+  .module li::before{content:"";position:absolute;left:0;top:13px;width:12px;height:12px;border:2px solid var(--orange);border-radius:50%}
+  .module li::after{content:"";position:absolute;left:4px;top:17px;width:4px;height:4px;border-radius:50%;background:var(--orange)}
+
+  /* ============ INLINE CTA ============ */
+  .inline-cta{
+    margin:36px auto 0;max-width:640px;
+    background:linear-gradient(135deg,#1a0d05,#0a0a0b);border:1px solid rgba(255,106,19,0.3);
+    border-radius:14px;padding:22px;text-align:center;
+  }
+  .inline-cta h4{font-family:'Bebas Neue';font-size:clamp(22px,4.5vw,30px);margin-bottom:6px;line-height:1}
+  .inline-cta h4 em{color:var(--orange);font-style:normal}
+  .inline-cta p{font-size:13.5px;color:var(--ink-dim);margin-bottom:16px}
+  .inline-cta .btn-buy{margin:0 auto;width:100%;max-width:380px}
+
+  /* ============ GALLERY ============ */
+  .gallery-section{background:linear-gradient(180deg,#0a0a0b,#0f0905);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;max-width:1080px;margin:0 auto}
+  @media(min-width:720px){.gallery{grid-template-columns:repeat(3,1fr);gap:14px}}
+  @media(min-width:1000px){.gallery{grid-template-columns:repeat(4,1fr)}}
+  .gphoto{position:relative;aspect-ratio:4/5;border-radius:12px;overflow:hidden;border:1px solid var(--line);background:#0a0a0b}
+  .gphoto.wide{grid-column:span 2;aspect-ratio:16/9}
+  .gphoto svg{width:100%;height:100%;display:block}
+  .gphoto .gcap{position:absolute;left:10px;right:10px;bottom:10px;font-family:'JetBrains Mono';font-size:10px;color:#fff;letter-spacing:0.08em;text-transform:uppercase;background:rgba(0,0,0,0.55);padding:5px 8px;border-radius:6px;border:1px solid rgba(255,255,255,0.08);backdrop-filter:blur(4px)}
+  .gphoto .gcap b{color:var(--orange);font-weight:700}
+  .gphoto::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 50%,rgba(0,0,0,0.55));pointer-events:none}
+
+  /* ============ TESTIMONIALS ============ */
+  .testi-grid{display:grid;grid-template-columns:1fr;gap:18px}
+  @media(min-width:720px){.testi-grid{grid-template-columns:1fr 1fr}}
+  @media(min-width:1000px){.testi-grid{grid-template-columns:repeat(3,1fr)}}
+  .testi{background:var(--bg-2);border:1px solid var(--line);border-radius:14px;padding:22px;display:flex;flex-direction:column;gap:14px;position:relative}
+  .testi-stars{color:var(--yellow);font-size:14px;letter-spacing:2px}
+  .testi-quote{font-size:14.5px;color:var(--ink);line-height:1.55;flex:1}
+  .testi-quote b{color:var(--orange);font-weight:700}
+  .testi-foot{display:flex;align-items:center;gap:12px;border-top:1px solid var(--line);padding-top:14px}
+  .testi-avatar{width:44px;height:44px;border-radius:50%;background:linear-gradient(135deg,var(--orange),var(--orange-deep));display:grid;place-items:center;font-weight:900;color:#0a0a0b;font-size:16px;flex-shrink:0}
+  .testi-info b{display:block;font-size:13px;color:var(--ink)}
+  .testi-info span{font-size:11px;color:var(--ink-dim);text-transform:uppercase;letter-spacing:0.08em}
+  .testi-metric{background:rgba(34,197,94,0.1);border:1px solid rgba(34,197,94,0.3);color:var(--green);font-family:'JetBrains Mono';font-size:11px;font-weight:700;padding:6px 10px;border-radius:6px;text-align:center;letter-spacing:0.04em}
+
+  /* ============ BONUS ============ */
+  .bonus-section{background:linear-gradient(180deg,#0a0a0b,#100804);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .bonus-grid{display:grid;grid-template-columns:1fr;gap:16px;max-width:880px;margin:0 auto}
+  @media(min-width:720px){.bonus-grid{grid-template-columns:1fr 1fr}}
+  .bonus{background:var(--bg-2);border:1px solid var(--line);border-left:3px solid var(--orange);border-radius:12px;padding:24px;position:relative}
+  .bonus-tag{position:absolute;top:-10px;right:16px;background:var(--orange);color:#0a0a0b;font-family:'JetBrains Mono';font-size:10px;font-weight:700;padding:4px 10px;border-radius:4px;letter-spacing:0.1em}
+  .bonus h4{font-family:'Bebas Neue';font-size:24px;margin-bottom:8px;line-height:1.05}
+  .bonus p{font-size:13.5px;color:var(--ink-dim);margin-bottom:14px}
+  .bonus ul{list-style:none;margin-bottom:14px}
+  .bonus li{font-size:12.5px;color:var(--ink);padding:5px 0 5px 20px;position:relative}
+  .bonus li::before{content:"+";color:var(--orange);font-weight:900;position:absolute;left:0;top:5px;font-size:14px}
+  .bonus-value{font-family:'JetBrains Mono';font-size:12px;color:var(--ink-mute)}
+  .bonus-value s{color:var(--ink-mute)}
+  .bonus-value b{color:var(--green);margin-left:6px}
+
+  /* ============ OFFER ============ */
+  .offer-section{padding:48px 0 72px;background:radial-gradient(ellipse 80% 60% at 50% 50%, rgba(255,106,19,0.18), transparent 70%),var(--bg)}
+  .offer-card{
+    max-width:620px;margin:0 auto;background:linear-gradient(180deg,var(--bg-2),var(--bg-3));
+    border:1px solid var(--line-2);border-radius:20px;padding:28px 20px;
+    box-shadow:0 30px 60px rgba(0,0,0,0.5), 0 0 0 1px rgba(255,106,19,0.18);
+    text-align:center;position:relative;overflow:hidden;
+  }
+  @media(min-width:520px){.offer-card{padding:36px 28px}}
+  .offer-card::before{content:"";position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--orange-deep),var(--orange),var(--orange-deep))}
+  .offer-tag{display:inline-block;background:var(--orange);color:#0a0a0b;font-family:'JetBrains Mono';font-size:11px;font-weight:700;padding:6px 14px;border-radius:999px;letter-spacing:0.1em;margin-bottom:18px}
+  .offer-title{font-family:'Bebas Neue';font-size:clamp(28px,5.5vw,42px);line-height:0.95;margin-bottom:8px;text-wrap:balance}
+  .offer-sub{font-size:13.5px;color:var(--ink-dim);margin-bottom:22px}
+  .offer-stack{text-align:left;background:rgba(0,0,0,0.3);border:1px solid var(--line);border-radius:10px;padding:16px 14px;margin-bottom:22px}
+  @media(min-width:520px){.offer-stack{padding:18px}}
+  .offer-stack ul{list-style:none}
+  .offer-stack li{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:10px 0;border-bottom:1px dashed var(--line);font-size:13px}
+  @media(min-width:520px){.offer-stack li{font-size:13.5px}}
+  .offer-stack li:last-child{border-bottom:none}
+  .offer-stack li span{color:var(--ink);flex:1}
+  .offer-stack li b{font-family:'JetBrains Mono';color:var(--ink-mute);text-decoration:line-through;font-weight:400;font-size:12.5px;flex-shrink:0}
+  .offer-stack .total{display:flex;justify-content:space-between;align-items:center;margin-top:14px;padding-top:14px;border-top:2px solid var(--line-2);gap:10px}
+  .offer-stack .total span{font-family:'Bebas Neue';font-size:18px;color:var(--ink)}
+  .offer-stack .total b{font-family:'JetBrains Mono';font-size:15px;color:var(--ink-mute);text-decoration:line-through;font-weight:400}
+
+  .offer-price-block{margin-bottom:22px}
+  .offer-de{font-size:13px;color:var(--ink-mute);margin-bottom:4px}
+  .offer-de s{color:var(--ink-mute)}
+  .offer-por{font-size:12px;color:var(--orange-2);text-transform:uppercase;letter-spacing:0.18em;font-weight:700;margin-bottom:6px}
+  .offer-installment{font-family:'Bebas Neue';font-size:clamp(48px,11vw,72px);color:var(--ink);line-height:1}
+  .offer-installment small{font-size:0.42em;color:var(--ink-dim);font-family:'Inter';font-weight:500;letter-spacing:0}
+  .offer-installment .vir{color:var(--orange)}
+  .offer-cash{font-size:14px;color:var(--ink-dim);margin-top:6px}
+  .offer-cash b{color:var(--ink)}
+  .offer-perday{display:inline-block;margin-top:10px;padding:6px 12px;background:rgba(34,197,94,0.1);border:1px solid rgba(34,197,94,0.3);color:var(--green);border-radius:999px;font-size:12px;font-weight:700;letter-spacing:0.02em}
+
+  .offer-cta{
+    display:block;width:100%;
+    background:linear-gradient(180deg,var(--green),var(--green-2));color:#04130a;font-weight:900;
+    padding:22px 18px;border-radius:14px;font-size:clamp(15px,3.8vw,18px);letter-spacing:0.02em;text-transform:uppercase;
+    box-shadow:0 0 0 1px rgba(0,0,0,0.25) inset, 0 14px 40px var(--green-glow);
+    text-align:center;line-height:1.2;position:relative;overflow:hidden;
+    transition:transform .15s ease;
+  }
+  .offer-cta::before{content:"";position:absolute;top:0;left:-120%;width:60%;height:100%;background:linear-gradient(90deg,transparent,rgba(255,255,255,0.55),transparent);animation:shine 2.6s infinite}
+  .offer-cta:hover{transform:translateY(-2px)}
+  .offer-cta small{display:block;font-size:11px;font-weight:600;opacity:0.85;margin-top:6px;letter-spacing:0.08em}
+
+  .offer-paymethods{display:flex;justify-content:center;align-items:center;gap:8px;margin-top:14px;flex-wrap:wrap}
+  .pay-chip{background:var(--bg-3);border:1px solid var(--line);color:var(--ink-dim);font-family:'JetBrains Mono';font-size:10px;letter-spacing:0.1em;padding:5px 10px;border-radius:6px;text-transform:uppercase}
+  .offer-trust{display:flex;flex-wrap:wrap;justify-content:center;gap:14px;margin-top:18px;padding-top:18px;border-top:1px solid var(--line)}
+  .trust-item{display:flex;align-items:center;gap:6px;font-size:11px;color:var(--ink-dim);letter-spacing:0.04em}
+  .trust-item svg{width:14px;height:14px;color:var(--green)}
+
+  /* ============ GUARANTEE ============ */
+  .guarantee{
+    max-width:780px;margin:48px auto 0;background:var(--bg-2);border:1px solid var(--line);
+    border-radius:14px;padding:24px;display:flex;flex-direction:column;align-items:center;text-align:center;gap:18px;
+  }
+  @media(min-width:720px){.guarantee{flex-direction:row;text-align:left;padding:32px}}
+  .seal{
+    flex-shrink:0;width:130px;height:130px;border-radius:50%;
+    background:radial-gradient(circle,var(--bg-3),var(--bg-2));border:2px dashed var(--green);
+    display:grid;place-items:center;color:var(--green);position:relative;
+    animation:seal-pulse 2.5s ease-in-out infinite;
+  }
+  @keyframes seal-pulse{0%,100%{box-shadow:0 0 0 0 rgba(34,197,94,0.5)}50%{box-shadow:0 0 0 16px rgba(34,197,94,0)}}
+  .seal-inner{text-align:center}
+  .seal-inner b{display:block;font-family:'Bebas Neue';font-size:48px;line-height:1;color:var(--green)}
+  .seal-inner span{font-size:9px;letter-spacing:0.2em;text-transform:uppercase;color:var(--green)}
+  .guarantee-content h4{font-family:'Bebas Neue';font-size:26px;margin-bottom:8px;line-height:1.05}
+  .guarantee-content p{font-size:14px;color:var(--ink-dim);text-wrap:pretty}
+  .guarantee-content p b{color:var(--ink)}
+
+  /* ============ FAQ ============ */
+  .faq-list{max-width:780px;margin:0 auto}
+  details.faq{background:var(--bg-2);border:1px solid var(--line);border-radius:10px;margin-bottom:10px;overflow:hidden}
+  details.faq summary{list-style:none;cursor:pointer;padding:18px 20px;font-weight:600;font-size:14.5px;display:flex;justify-content:space-between;align-items:center;gap:14px}
+  details.faq summary::-webkit-details-marker{display:none}
+  details.faq summary::after{content:"+";font-size:24px;color:var(--orange);transition:transform .2s;line-height:0.5;flex-shrink:0}
+  details.faq[open] summary::after{transform:rotate(45deg)}
+  details.faq[open]{border-color:rgba(255,106,19,0.4)}
+  details.faq p{padding:0 20px 20px;color:var(--ink-dim);font-size:14px;line-height:1.6}
+  details.faq p b{color:var(--ink)}
+
+  /* ============ FINAL CTA ============ */
+  .final-cta{
+    padding:60px 0 40px;
+    background:radial-gradient(ellipse 80% 80% at 50% 50%,rgba(255,106,19,0.25),transparent 70%),var(--bg-2);
+    text-align:center;border-top:1px solid var(--line);
+  }
+  .final-cta h2{font-family:'Bebas Neue';font-size:clamp(34px,7vw,58px);line-height:0.95;margin-bottom:14px;text-wrap:balance}
+  .final-cta h2 em{color:var(--orange);font-style:normal}
+  .final-cta p{font-size:15px;color:var(--ink-dim);max-width:580px;margin:0 auto 28px;text-wrap:pretty}
+  .final-cta .btn-buy{max-width:480px;margin:0 auto}
+
+  /* ============ FOOTER ============ */
+  footer{background:#050506;border-top:1px solid var(--line);padding:40px 0 110px;text-align:center}
+  @media(min-width:760px){footer{padding-bottom:40px}}
+  footer .container{display:flex;flex-direction:column;align-items:center;gap:16px}
+  .logo-footer img{height:80px;width:auto;display:block;margin:0 auto;filter:drop-shadow(0 8px 22px rgba(255,106,19,0.3))}
+  footer p{font-size:12px;color:var(--ink-mute);max-width:600px;line-height:1.6}
+  footer .legal{display:flex;flex-wrap:wrap;gap:16px;justify-content:center;font-size:11px;color:var(--ink-mute)}
+
+  /* ============ SOCIAL PROOF POPUP ============ */
+  .proof-popup{
+    position:fixed;left:14px;bottom:90px;z-index:50;background:var(--bg-2);border:1px solid var(--line-2);
+    border-radius:12px;padding:12px 32px 12px 12px;display:flex;align-items:center;gap:12px;max-width:320px;
+    box-shadow:0 14px 40px rgba(0,0,0,0.5), 0 0 0 1px rgba(255,106,19,0.15);
+    transform:translateX(-380px);opacity:0;transition:transform .35s cubic-bezier(.2,.8,.2,1), opacity .35s;
+    pointer-events:none;
+  }
+  @media(min-width:760px){.proof-popup{bottom:16px}}
+  .proof-popup.show{transform:translateX(0);opacity:1;pointer-events:auto}
+  .proof-avatar{width:38px;height:38px;border-radius:50%;flex-shrink:0;background:linear-gradient(135deg,var(--orange),var(--orange-deep));display:grid;place-items:center;color:#0a0a0b;font-weight:900;font-size:14px}
+  .proof-text{flex:1;min-width:0}
+  .proof-text .name{font-size:12.5px;color:var(--ink);font-weight:600;line-height:1.2;margin-bottom:3px}
+  .proof-text .name b{color:var(--green);font-weight:700}
+  .proof-text .meta{font-size:10.5px;color:var(--ink-dim);line-height:1.2}
+  .proof-text .meta .city{color:var(--orange-2)}
+  .proof-close{position:absolute;top:6px;right:8px;color:var(--ink-mute);font-size:16px;background:none;border:none;cursor:pointer;line-height:1}
+  @media(max-width:520px){.proof-popup{left:10px;right:10px;max-width:none}}
+
+  /* ============ STICKY MOBILE CTA ============ */
+  .sticky-cta{
+    position:fixed;bottom:0;left:0;right:0;z-index:40;
+    background:linear-gradient(180deg,rgba(10,10,11,0.6),rgba(10,10,11,0.97));
+    backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+    border-top:1px solid var(--line);padding:10px 12px calc(10px + env(safe-area-inset-bottom));
+    display:none;
+  }
+  .sticky-cta.visible{display:block}
+  .sticky-cta a{
+    display:flex;align-items:center;justify-content:center;gap:8px;
+    background:linear-gradient(180deg,var(--green),var(--green-2));color:#04130a;font-weight:900;
+    padding:14px 16px;border-radius:11px;font-size:13.5px;letter-spacing:0.02em;text-transform:uppercase;
+    box-shadow:0 -4px 20px var(--green-glow), 0 0 0 1px rgba(0,0,0,0.25) inset;
+    text-align:center;line-height:1.1;position:relative;overflow:hidden;
+  }
+  .sticky-cta a::before{content:"";position:absolute;top:0;left:-120%;width:60%;height:100%;background:linear-gradient(90deg,transparent,rgba(255,255,255,0.5),transparent);animation:shine 2.6s infinite}
+  .sticky-cta .price{font-family:'JetBrains Mono';font-size:11px;opacity:0.85;font-weight:700}
+  @media(min-width:760px){.sticky-cta{display:none !important}}
+
+  /* ============ REVEAL ============ */
+  .reveal{opacity:0;transform:translateY(18px);transition:opacity .6s ease, transform .6s ease}
+  .reveal.in{opacity:1;transform:none}
+</style>
+</head>
+<body>
+
+<!-- ============ URGENCY BAR ============ -->
+<div class="urgency-bar">
+  <span class="pulse-dot"></span>
+  <strong>OFERTA RELÂMPAGO · ENCERRA EM <span id="bar-timer">07d 00h 00m 00s</span></strong>
+</div>
+
+<!-- ============ NAV ============ -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="#" class="logo" aria-label="Escola Megap+Lub">
+      <img src="assets/logo-megaplub.png" alt="Escola Megap+Lub" />
+      <span class="logo-word">
+        <b>ESCOLA <em>MEGAP+LUB</em></b>
+        <small>Alavancando Oficinas</small>
+      </span>
+    </a>
+    <a href="#oferta" class="nav-cta" data-cta="nav">QUERO ENTRAR</a>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <div class="container">
+    <div class="hero-logo-block">
+      <div class="hero-logo" aria-hidden="true">
+        <img src="assets/logo-megaplub-cropped.png" alt="Megap+Lub" />
+        <span class="spark"></span><span class="spark"></span><span class="spark"></span>
+      </div>
+    </div>
+  </div>
+  <div class="container hero-grid">
+    <div>
+      <div class="eyebrow"><span class="dot"></span>O método nº 1 do Brasil para mecânicos de oficina</div>
+      <h1>
+        <span class="scratch">Pare de mandar carro pra concorrência</span>
+        Domine a <span class="accent">Geometria Veicular</span> e fature até <span class="yellow">R$ 10 mil/mês</span> a mais na sua oficina
+      </h1>
+      <p class="lead">
+        O treinamento <b>passo a passo</b> para você fazer <b>alinhamento dianteiro, traseiro, cambagem e cáster</b> com a mesma técnica dos profissionais que cobram <mark>R$ 280 por serviço</mark> — mesmo que você nunca tenha pegado num alinhador antes.
+      </p>
+
+      <div class="trust-row" style="justify-content:center">
+        <span class="trust-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12l5 5 9-9"/></svg><b>+2.300</b> alunos</span>
+        <span class="trust-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg><b>4.9/5</b> avaliação</span>
+        <span class="trust-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l8 4v6c0 5-3.5 9-8 10-4.5-1-8-5-8-10V6l8-4z"/></svg>Garantia <b>7 dias</b></span>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat"><b>+2.300</b><span>Mecânicos<br>formados</span></div>
+        <div class="stat"><b>R$ 10k</b><span>Faturamento<br>extra/mês</span></div>
+        <div class="stat"><b>72h</b><span>Para aplicar<br>na oficina</span></div>
+      </div>
+
+      <div class="cta-row">
+        <a href="#oferta" class="btn-buy" data-cta="hero">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-9"/></svg>
+          QUERO ENTRAR AGORA
+        </a>
+        <span class="secure">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l8 4v6c0 5-3.5 9-8 10-4.5-1-8-5-8-10V6l8-4z"/></svg>
+          Compra 100% segura · Acesso imediato
+        </span>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="hv-content">
+        <div class="hv-wheel">
+          <div class="hv-inner"><div class="hv-hub"></div></div>
+          <div class="hv-label l1">CÁSTER</div>
+          <div class="hv-label l2">CAMBAGEM</div>
+          <div class="hv-label l3">CONVERG.</div>
+          <div class="hv-label l4">TOE-OUT</div>
+        </div>
+      </div>
+      <div class="hv-overlay">
+        <span>// MÓDULO_03 · DIAGNÓSTICO</span>
+        <span class="live">SISTEMA ATIVO</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ============ SCARCITY BAR ============ -->
+<section class="scarcity">
+  <div class="container scarcity-inner">
+    <div class="scarcity-text">Restam <span class="scarcity-num" id="seats-left">37</span> vagas com bônus liberados nesta turma · <b>de 200 abertas</b></div>
+    <div class="scarcity-bar"><div class="scarcity-fill" id="seats-fill"></div></div>
+  </div>
+</section>
+
+<!-- ============ COUNTDOWN ============ -->
+<section class="countdown-section">
+  <div class="container countdown-wrap">
+    <span class="countdown-eyebrow">Atenção · oferta termina em</span>
+    <div class="countdown-title">Depois desse cronômetro, <b>volta para R$ 597,00</b></div>
+    <div class="countdown-sub">Você está vendo essa página em um dos <b>últimos dias</b> da promoção de lançamento. Após zerar, o preço sobe e os bônus saem do ar.</div>
+    <div class="countdown-grid" id="countdown">
+      <div class="cd-cell"><div class="num" id="cd-d">07</div><div class="lab">Dias</div></div>
+      <div class="cd-cell"><div class="num" id="cd-h">00</div><div class="lab">Horas</div></div>
+      <div class="cd-cell"><div class="num" id="cd-m">00</div><div class="lab">Min</div></div>
+      <div class="cd-cell"><div class="num" id="cd-s">00</div><div class="lab">Seg</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PAIN ============ -->
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-eyebrow">A real da sua oficina hoje</span>
+      <h2 class="section-title">Toda semana <em>passa dinheiro</em><br/>por baixo do seu portão</h2>
+      <p class="section-sub">Geometria veicular é o serviço de <b>maior margem da oficina</b> — e a maioria dos mecânicos perde esse cliente todo dia porque não domina a técnica. Se identifica com algum desses?</p>
+    </div>
+
+    <div class="pain-list">
+      <div class="pain"><div class="pain-x">×</div><p><b>Manda o carro pra outra oficina</b> sempre que o cliente pede alinhamento e cambagem — e nunca mais ele volta pra você.</p></div>
+      <div class="pain"><div class="pain-x">×</div><p><b>Cobra R$ 80 num alinhamento</b> enquanto a oficina ao lado cobra R$ 250 e o cliente paga sem reclamar.</p></div>
+      <div class="pain"><div class="pain-x">×</div><p><b>Não sabe diagnosticar</b> desgaste irregular de pneu e fica refém do que o cliente "acha" do problema.</p></div>
+      <div class="pain"><div class="pain-x">×</div><p><b>Tem alinhador na oficina</b>, mas nunca aprendeu de verdade a usar — equipamento caro parado virando enfeite.</p></div>
+      <div class="pain"><div class="pain-x">×</div><p><b>Recebe carro reclamando</b> que "puxa pro lado" e devolve sem resolver, perdendo a confiança do cliente fiel.</p></div>
+      <div class="pain"><div class="pain-x">×</div><p><b>Vê concorrentes faturando 5 dígitos</b> só com geometria enquanto você ainda depende de troca de óleo e revisão básica.</p></div>
+    </div>
+
+    <div class="promise">
+      <h3>Imagine fechar o mês com <em>R$ 8 a R$ 15 mil a mais</em><br/>fazendo o serviço que <em>já entra</em> na sua oficina</h3>
+      <p>Não é promessa. É a realidade de <b>mais de 2.300 mecânicos</b> que aplicaram o método e transformaram a geometria na maior fonte de receita da oficina — em 30 dias ou menos.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOR-WHO ============ -->
+<section class="section" style="background:var(--bg-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-eyebrow">Esse curso é pra você?</span>
+      <h2 class="section-title">Pra quem <em>é</em> · pra quem <span class="yellow">não é</span></h2>
+    </div>
+    <div class="for-who">
+      <div class="for-card yes">
+        <h4>É PRA VOCÊ SE…</h4>
+        <ul>
+          <li>É mecânico, dono ou funcionário de oficina e quer dominar o serviço de maior margem do mercado</li>
+          <li>Quer parar de devolver carro pra concorrência e começar a faturar a parte do alinhamento dentro da própria oficina</li>
+          <li>Tem ou pretende ter alinhador e quer extrair 100% do equipamento</li>
+          <li>Quer aprender a cobrar de R$ 220 a R$ 350 por serviço e ter cliente pagando sem reclamar</li>
+          <li>Está cansado de depender só de troca de óleo, revisão e serviço de baixa margem</li>
+          <li>Quer um método direto, sem teoria de faculdade, gravado dentro de oficina real</li>
+        </ul>
+      </div>
+      <div class="for-card no">
+        <h4>NÃO É PRA VOCÊ SE…</h4>
+        <ul>
+          <li>Procura curso "fórmula mágica" sem precisar colocar a mão na massa</li>
+          <li>Não tem interesse em aumentar o ticket médio ou crescer como profissional</li>
+          <li>Não está disposto a estudar 1h por dia durante uma semana e aplicar na oficina</li>
+          <li>Acha que mecânica é um mercado em queda e prefere não investir em conhecimento</li>
+          <li>Quer um curso teórico, com PowerPoint, sem casos práticos reais</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MODULES ============ -->
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-eyebrow">O que você vai dominar</span>
+      <h2 class="section-title">Do <em>zero ao avançado</em> em 7 dias</h2>
+      <p class="section-sub">6 módulos práticos, gravados dentro de oficina real, com casos do dia a dia que você atende toda semana. Acesso vitalício e atualizações grátis pra sempre.</p>
+    </div>
+
+    <div class="modules-grid">
+      <div class="module">
+        <div class="module-num">MÓDULO 01</div>
+        <h3>Alinhamento Dianteiro Profissional</h3>
+        <p>Domine a base do serviço mais procurado da oficina.</p>
+        <ul>
+          <li>Convergência e divergência na prática</li>
+          <li>Leitura correta do alinhador (qualquer marca)</li>
+          <li>Acerto fino em carros nacionais e importados</li>
+          <li>Os 7 erros que travam o serviço</li>
+        </ul>
+      </div>
+      <div class="module">
+        <div class="module-num">MÓDULO 02</div>
+        <h3>Alinhamento Traseiro Avançado</h3>
+        <p>O serviço que 9 em cada 10 oficinas não sabem fazer.</p>
+        <ul>
+          <li>Diagnóstico de eixo torcido em segundos</li>
+          <li>Como identificar carro que sofreu acidente</li>
+          <li>Correção em suspensões independentes</li>
+          <li>Eixo rígido, semi-rígido e Multilink</li>
+        </ul>
+      </div>
+      <div class="module">
+        <div class="module-num">MÓDULO 03</div>
+        <h3>Cambagem do Diagnóstico ao Acerto</h3>
+        <p>Pare de mandar carro pra concorrência por cambagem.</p>
+        <ul>
+          <li>Leitura visual do desgaste de pneu</li>
+          <li>Cambagem positiva, negativa e zero</li>
+          <li>Calço, câmber kit e excêntrico</li>
+          <li>Quando o problema é da suspensão</li>
+        </ul>
+      </div>
+      <div class="module">
+        <div class="module-num">MÓDULO 04</div>
+        <h3>Cáster — O Segredo dos Pros</h3>
+        <p>O ângulo que separa o amador do profissional.</p>
+        <ul>
+          <li>Por que o carro puxa pro lado de verdade</li>
+          <li>Cáster e estabilidade em alta velocidade</li>
+          <li>Direção hidráulica e elétrica</li>
+          <li>Acerto em SUVs e picapes 4x4</li>
+        </ul>
+      </div>
+      <div class="module">
+        <div class="module-num">MÓDULO 05</div>
+        <h3>Diagnóstico Completo</h3>
+        <p>Identifique o problema antes de subir o carro no elevador.</p>
+        <ul>
+          <li>Checklist de recepção do veículo</li>
+          <li>Test drive técnico (e o que escutar)</li>
+          <li>Interpretação de desgaste irregular</li>
+          <li>Folgas que afetam a geometria</li>
+        </ul>
+      </div>
+      <div class="module">
+        <div class="module-num">MÓDULO 06</div>
+        <h3>Casos Reais de Oficina</h3>
+        <p>Mais de 20 casos resolvidos do começo ao fim.</p>
+        <ul>
+          <li>Carros que ninguém conseguiu ajustar</li>
+          <li>Soluções para carros rebaixados</li>
+          <li>Pneus desgastando em poucos km</li>
+          <li>Volante torto após acidente</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="inline-cta">
+      <h4>Quer aplicar isso na sua oficina <em>já essa semana?</em></h4>
+      <p>Acesso liberado em até 5 minutos após o pagamento. 7 dias de garantia incondicional.</p>
+      <a href="#oferta" class="btn-buy" data-cta="modules-mid">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-9"/></svg>
+        SIM, QUERO COMEÇAR AGORA
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALLERY ============ -->
+<section class="section gallery-section">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-eyebrow">Por dentro do método</span>
+      <h2 class="section-title">A oficina <em>de quem aplica</em><br/>o método é assim</h2>
+      <p class="section-sub">Alinhamento 3D de verdade, mecânicos com a agenda lotada e clientes saindo satisfeitos. <b>Esse é o padrão Megap+Lub.</b></p>
+    </div>
+
+    <div class="gallery">
+      <div class="gphoto wide">
+        <svg viewBox="0 0 800 450" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <radialGradient id="g1" cx="50%" cy="40%" r="70%"><stop offset="0%" stop-color="#2a1a0a"/><stop offset="60%" stop-color="#0f0805"/><stop offset="100%" stop-color="#050304"/></radialGradient>
+            <linearGradient id="beam1" x1="0" x2="0" y1="0" y2="1"><stop offset="0%" stop-color="#ff6a13" stop-opacity="0.9"/><stop offset="100%" stop-color="#ff6a13" stop-opacity="0"/></linearGradient>
+            <linearGradient id="floor1" x1="0" x2="0" y1="0" y2="1"><stop offset="0%" stop-color="#1a1410"/><stop offset="100%" stop-color="#0a0805"/></linearGradient>
+          </defs>
+          <rect width="800" height="450" fill="url(#g1)"/>
+          <rect y="320" width="800" height="130" fill="url(#floor1)"/>
+          <g opacity="0.5"><path d="M0 320 L800 320" stroke="#ff6a13" stroke-width="0.5"/><path d="M100 450 L350 320" stroke="#2a1a0a" stroke-width="1"/><path d="M700 450 L450 320" stroke="#2a1a0a" stroke-width="1"/></g>
+          <g transform="translate(400,260)">
+            <ellipse cx="0" cy="60" rx="170" ry="14" fill="#000" opacity="0.6"/>
+            <rect x="-150" y="-30" width="300" height="80" rx="12" fill="#1f1815" stroke="#3a2a20"/>
+            <rect x="-130" y="-50" width="260" height="30" rx="8" fill="#0f0a08" stroke="#2a2018"/>
+            <circle cx="-90" cy="50" r="32" fill="#0a0a0a" stroke="#2a2018" stroke-width="2"/><circle cx="-90" cy="50" r="18" fill="#1a1a1a"/>
+            <circle cx="90" cy="50" r="32" fill="#0a0a0a" stroke="#2a2018" stroke-width="2"/><circle cx="90" cy="50" r="18" fill="#1a1a1a"/>
+          </g>
+          <g transform="translate(400,180)" opacity="0.85"><rect x="-2" y="0" width="4" height="200" fill="url(#beam1)"/><rect x="-90" y="-2" width="180" height="4" fill="url(#beam1)" transform="rotate(0)"/></g>
+          <g font-family="JetBrains Mono, monospace" fill="#ff6a13" font-size="10" opacity="0.85">
+            <text x="40" y="40">// ALIGN_3D · CAMBER −1.2°</text>
+            <text x="40" y="56">// CASTER 4.8° · TOE 0.05°</text>
+            <text x="600" y="40">[ LIVE SCAN ]</text>
+          </g>
+          <g opacity="0.6"><circle cx="60" cy="60" r="4" fill="#22c55e"/><text x="72" y="64" fill="#22c55e" font-family="JetBrains Mono, monospace" font-size="10">SISTEMA OK</text></g>
+        </svg>
+        <div class="gcap"><b>01</b> · Alinhamento 3D · sensor a laser</div>
+      </div>
+
+      <div class="gphoto">
+        <svg viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+          <defs><radialGradient id="g2" cx="50%" cy="35%" r="70%"><stop offset="0%" stop-color="#3a200d"/><stop offset="100%" stop-color="#0a0805"/></radialGradient></defs>
+          <rect width="400" height="500" fill="url(#g2)"/>
+          <g transform="translate(200,260)">
+            <ellipse cx="0" cy="180" rx="140" ry="14" fill="#000" opacity="0.5"/>
+            <circle r="120" fill="#0a0a0a" stroke="#2a2018"/>
+            <circle r="100" fill="none" stroke="#3a2a20" stroke-width="1" stroke-dasharray="4 6"/>
+            <g><circle r="40" fill="#1a1410"/><circle r="40" fill="none" stroke="#ff6a13" stroke-width="2"/></g>
+            <g stroke="#3a2a20" stroke-width="6" fill="none"><path d="M0 -100 L0 -50"/><path d="M70 -70 L35 -35"/><path d="M100 0 L50 0"/><path d="M70 70 L35 35"/><path d="M0 100 L0 50"/><path d="M-70 70 L-35 35"/><path d="M-100 0 L-50 0"/><path d="M-70 -70 L-35 -35"/></g>
+          </g>
+          <g font-family="JetBrains Mono, monospace" fill="#ff6a13" font-size="10" opacity="0.85"><text x="20" y="30">// PNEU · LEITURA</text><text x="20" y="46">// DESGASTE −12%</text></g>
+        </svg>
+        <div class="gcap"><b>02</b> · Diagnóstico de pneu</div>
+      </div>
+
+      <div class="gphoto">
+        <svg viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+          <defs><radialGradient id="g3" cx="50%" cy="40%" r="80%"><stop offset="0%" stop-color="#2a1810"/><stop offset="100%" stop-color="#080604"/></radialGradient></defs>
+          <rect width="400" height="500" fill="url(#g3)"/>
+          <g transform="translate(200,260)" stroke="#ff6a13" fill="none" stroke-width="1.5" opacity="0.85"><circle r="120"/><circle r="90" stroke-dasharray="3 5"/><line x1="-130" y1="0" x2="130" y2="0"/><line x1="0" y1="-130" x2="0" y2="130"/><line x1="-90" y1="-90" x2="90" y2="90" opacity="0.4"/><line x1="-90" y1="90" x2="90" y2="-90" opacity="0.4"/></g>
+          <g transform="translate(200,260)" fill="#ff6a13"><circle r="6"/><circle r="14" fill="none" stroke="#ff6a13"/></g>
+          <g font-family="JetBrains Mono, monospace" fill="#ffd9b8" font-size="10"><text x="20" y="30">// CASTER ANGLE</text><text x="20" y="46">+4.8° / +5.0°</text><text x="20" y="62" fill="#22c55e">[ DENTRO DA TOLERÂNCIA ]</text></g>
+        </svg>
+        <div class="gcap"><b>03</b> · Geometria 3D · cáster</div>
+      </div>
+
+      <div class="gphoto">
+        <svg viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+          <defs><linearGradient id="g4" x1="0" x2="0" y1="0" y2="1"><stop offset="0%" stop-color="#3a2515"/><stop offset="100%" stop-color="#0a0604"/></linearGradient></defs>
+          <rect width="400" height="500" fill="url(#g4)"/>
+          <g transform="translate(200,290)">
+            <ellipse cx="0" cy="100" rx="120" ry="10" fill="#000" opacity="0.55"/>
+            <rect x="-70" y="-110" width="140" height="160" rx="40" fill="#2a1d10" stroke="#3a2a18"/>
+            <circle cx="0" cy="-130" r="34" fill="#d4a47a"/>
+            <rect x="-60" y="40" width="120" height="60" rx="8" fill="#1a120a"/>
+          </g>
+          <g transform="translate(180,260)"><circle r="36" fill="#1a1208" stroke="#ff6a13"/></g>
+          <g font-family="JetBrains Mono, monospace" fill="#ff6a13" font-size="10" opacity="0.85"><text x="20" y="30">// MECÂNICO_PRO</text><text x="20" y="46">// TURMA 14</text></g>
+        </svg>
+        <div class="gcap"><b>04</b> · Mecânico aplicando</div>
+      </div>
+
+      <div class="gphoto">
+        <svg viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+          <defs><radialGradient id="g5" cx="50%" cy="30%" r="80%"><stop offset="0%" stop-color="#2f1a08"/><stop offset="100%" stop-color="#080604"/></radialGradient></defs>
+          <rect width="400" height="500" fill="url(#g5)"/>
+          <g transform="translate(200,260)">
+            <rect x="-160" y="-80" width="320" height="160" rx="6" fill="#1a1108" stroke="#3a2a18"/>
+            <rect x="-150" y="-70" width="300" height="50" rx="3" fill="#0a0805"/>
+            <text x="0" y="-40" text-anchor="middle" fill="#22c55e" font-family="JetBrains Mono, monospace" font-size="14">+ R$ 12.480,00</text>
+            <text x="0" y="-22" text-anchor="middle" fill="#a8a8a4" font-family="JetBrains Mono, monospace" font-size="9">FATURAMENTO MENSAL · GEOMETRIA</text>
+            <g stroke="#ff6a13" fill="none" stroke-width="2"><polyline points="-140,40 -100,20 -60,30 -20,0 20,10 60,-15 100,-30 140,-50"/></g>
+            <g fill="#ff6a13"><circle cx="-140" cy="40" r="3"/><circle cx="-100" cy="20" r="3"/><circle cx="-60" cy="30" r="3"/><circle cx="-20" cy="0" r="3"/><circle cx="20" cy="10" r="3"/><circle cx="60" cy="-15" r="3"/><circle cx="100" cy="-30" r="3"/><circle cx="140" cy="-50" r="3"/></g>
+          </g>
+          <g font-family="JetBrains Mono, monospace" fill="#ffd9b8" font-size="10" opacity="0.7"><text x="20" y="30">// PAINEL · ALUNO</text></g>
+        </svg>
+        <div class="gcap"><b>05</b> · Resultado financeiro real</div>
+      </div>
+
+      <div class="gphoto">
+        <svg viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+          <defs><radialGradient id="g6" cx="50%" cy="40%" r="80%"><stop offset="0%" stop-color="#3a200d"/><stop offset="100%" stop-color="#080604"/></radialGradient></defs>
+          <rect width="400" height="500" fill="url(#g6)"/>
+          <g transform="translate(200,260)">
+            <ellipse cx="0" cy="160" rx="150" ry="14" fill="#000" opacity="0.5"/>
+            <rect x="-130" y="-40" width="260" height="100" rx="14" fill="#1a1108" stroke="#3a2a18"/>
+            <rect x="-120" y="-90" width="240" height="50" rx="10" fill="#0e0907" stroke="#2a1d12"/>
+            <circle cx="-80" cy="60" r="36" fill="#0a0a0a" stroke="#2a1d12" stroke-width="2"/><circle cx="-80" cy="60" r="20" fill="#1a1a1a"/>
+            <circle cx="80" cy="60" r="36" fill="#0a0a0a" stroke="#2a1d12" stroke-width="2"/><circle cx="80" cy="60" r="20" fill="#1a1a1a"/>
+            <rect x="-100" y="-75" width="200" height="20" rx="3" fill="#1a1108"/>
+          </g>
+          <g font-family="JetBrains Mono, monospace" fill="#ff6a13" font-size="10" opacity="0.85"><text x="20" y="30">// CARRO REBAIXADO</text><text x="20" y="46">// CASO PRÁTICO 11</text></g>
+        </svg>
+        <div class="gcap"><b>06</b> · Casos especiais</div>
+      </div>
+
+      <div class="gphoto">
+        <svg viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+          <defs><radialGradient id="g7" cx="50%" cy="40%" r="80%"><stop offset="0%" stop-color="#2a1a0a"/><stop offset="100%" stop-color="#080604"/></radialGradient></defs>
+          <rect width="400" height="500" fill="url(#g7)"/>
+          <g transform="translate(200,250)" stroke="#3a2a18" fill="#1a1108" stroke-width="2">
+            <rect x="-100" y="-40" width="200" height="20" rx="4"/>
+            <rect x="-80" y="-20" width="160" height="60" rx="3"/>
+            <circle cx="0" cy="60" r="28" fill="#0a0a0a"/>
+            <rect x="-12" y="-100" width="24" height="60" rx="2" fill="#1a1108"/>
+          </g>
+          <g transform="translate(120,270)"><circle r="18" fill="#ff6a13"/><text y="5" text-anchor="middle" fill="#0a0a0a" font-family="JetBrains Mono, monospace" font-size="11" font-weight="700">3D</text></g>
+          <g font-family="JetBrains Mono, monospace" fill="#ff6a13" font-size="10" opacity="0.85"><text x="20" y="30">// EQUIPAMENTO</text><text x="20" y="46">// SENSOR LASER</text></g>
+        </svg>
+        <div class="gcap"><b>07</b> · Equipamento profissional</div>
+      </div>
+
+      <div class="gphoto wide">
+        <svg viewBox="0 0 800 450" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+          <defs><radialGradient id="g8" cx="50%" cy="50%" r="70%"><stop offset="0%" stop-color="#3a2515"/><stop offset="100%" stop-color="#0a0604"/></radialGradient></defs>
+          <rect width="800" height="450" fill="url(#g8)"/>
+          <g transform="translate(200,260)">
+            <rect x="-70" y="-50" width="140" height="180" rx="40" fill="#2a1d10" stroke="#3a2a18"/>
+            <circle cx="0" cy="-70" r="36" fill="#d4a47a"/>
+            <path d="M-20 -75 q20 12 40 0" stroke="#22c55e" stroke-width="3" fill="none"/>
+          </g>
+          <g transform="translate(400,260)">
+            <rect x="-70" y="-50" width="140" height="180" rx="40" fill="#2a1d10" stroke="#3a2a18"/>
+            <circle cx="0" cy="-70" r="36" fill="#caa078"/>
+            <path d="M-20 -75 q20 14 40 0" stroke="#22c55e" stroke-width="3" fill="none"/>
+          </g>
+          <g transform="translate(600,260)">
+            <rect x="-70" y="-50" width="140" height="180" rx="40" fill="#2a1d10" stroke="#3a2a18"/>
+            <circle cx="0" cy="-70" r="36" fill="#b8865c"/>
+            <path d="M-20 -75 q20 14 40 0" stroke="#22c55e" stroke-width="3" fill="none"/>
+          </g>
+          <g font-family="JetBrains Mono, monospace" fill="#ff6a13" font-size="11" opacity="0.85"><text x="40" y="40">// TURMA · MECÂNICOS APLICANDO</text><text x="600" y="40" fill="#22c55e">[ +2.300 ALUNOS ]</text></g>
+        </svg>
+        <div class="gcap"><b>08</b> · Mecânicos da turma Megap+Lub</div>
+      </div>
+    </div>
+
+    <div class="inline-cta" style="margin-top:36px">
+      <h4>Quer ver isso na <em>sua oficina?</em></h4>
+      <p>É exatamente o que você vai aprender a fazer — passo a passo, do diagnóstico ao acerto fino.</p>
+      <a href="#oferta" class="btn-buy" data-cta="gallery">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-9"/></svg>
+        QUERO ESSE PADRÃO NA MINHA OFICINA
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section class="section" style="background:var(--bg-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-eyebrow">Resultados reais</span>
+      <h2 class="section-title">Mecânicos que <em>já estão faturando</em><br/>com o método</h2>
+      <p class="section-sub">Estes são alunos reais, de oficinas reais, em cidades reais. <b>O resultado é proporcional à aplicação.</b></p>
+    </div>
+
+    <div class="testi-grid">
+      <div class="testi">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-quote">"Antes eu mandava todo carro pro concorrente quando pediam alinhamento. Hoje faço dentro da minha oficina e cobro <b>R$ 280 o serviço completo</b>. Em 2 meses paguei o curso 30 vezes. Recomendo de olhos fechados."</p>
+        <div class="testi-metric">+R$ 9.400/mês de faturamento extra</div>
+        <div class="testi-foot">
+          <div class="testi-avatar">JA</div>
+          <div class="testi-info"><b>Jonas — Alfacenter</b><span>Cuiabá / MT</span></div>
+        </div>
+      </div>
+
+      <div class="testi">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-quote">"O módulo de cáster mudou minha cabeça. Carro que antes eu devolvia 'mais ou menos', hoje sai 100%. <b>Triplicou minha indicação</b> de cliente. Vale 10x o que paguei."</p>
+        <div class="testi-metric">3x mais clientes por indicação</div>
+        <div class="testi-foot">
+          <div class="testi-avatar">LS</div>
+          <div class="testi-info"><b>Lucas — SMTG Auto Center</b><span>Barbacena / MG</span></div>
+        </div>
+      </div>
+
+      <div class="testi">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-quote">"Tinha o alinhador parado há 8 meses. Depois do curso comecei a usar de verdade. <b>Faturei R$ 12 mil só de geometria</b> no segundo mês. O equipamento agora se paga sozinho."</p>
+        <div class="testi-metric">R$ 12.000 no 2º mês</div>
+        <div class="testi-foot">
+          <div class="testi-avatar">FO</div>
+          <div class="testi-info"><b>Felipe — Orion</b><span>Divinópolis / MG</span></div>
+        </div>
+      </div>
+
+      <div class="testi">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-quote">"14 anos de mecânica e nunca tinha aprendido geometria direito. O conteúdo é <b>direto, sem enrolação</b>. Em uma semana já estava aplicando na oficina e cobrando o triplo."</p>
+        <div class="testi-metric">+R$ 6.200/mês</div>
+        <div class="testi-foot">
+          <div class="testi-avatar">RS</div>
+          <div class="testi-info"><b>Rodrigo — RS Mecânica</b><span>Londrina / PR</span></div>
+        </div>
+      </div>
+
+      <div class="testi">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-quote">"O bônus de 'como cobrar bem' foi o que mais me ajudou. Eu cobrava R$ 80 num alinhamento, hoje <b>cobro R$ 220 e ninguém reclama</b>. O cliente entende o valor do serviço."</p>
+        <div class="testi-metric">Ticket 175% maior</div>
+        <div class="testi-foot">
+          <div class="testi-avatar">MC</div>
+          <div class="testi-info"><b>Marcos — Centro Auto</b><span>Goiânia / GO</span></div>
+        </div>
+      </div>
+
+      <div class="testi">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-quote">"Comprei achando que era só mais um curso. Me surpreendi. As aulas de diagnóstico são <b>ouro puro</b>. Hoje minha agenda fica lotada 3 semanas pra frente. Sem espaço pra carro novo."</p>
+        <div class="testi-metric">Agenda lotada 3 semanas</div>
+        <div class="testi-foot">
+          <div class="testi-avatar">EC</div>
+          <div class="testi-info"><b>Eduardo — EC Motors</b><span>Joinville / SC</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="inline-cta" style="margin-top:36px">
+      <h4>Você também pode estar nessa lista <em>em 30 dias</em></h4>
+      <p>Mais de 2.300 mecânicos já decidiram. A sua vaga ainda está aberta — mas não por muito tempo.</p>
+      <a href="#oferta" class="btn-buy" data-cta="testi-mid">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-9"/></svg>
+        QUERO MEU RESULTADO TAMBÉM
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BONUSES ============ -->
+<section class="section bonus-section">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-eyebrow">Bônus exclusivos desta turma</span>
+      <h2 class="section-title">+ 2 bônus que <em>valem mais</em><br/>que o próprio curso</h2>
+      <p class="section-sub">Você não vai apenas aprender o serviço — vai aprender a <b>transformar geometria na maior fonte de receita</b> da sua oficina. Estes bônus saem do ar quando o cronômetro zerar.</p>
+    </div>
+
+    <div class="bonus-grid">
+      <div class="bonus">
+        <div class="bonus-tag">BÔNUS 01</div>
+        <h4>Como Cobrar Bem Pelos Seus Serviços</h4>
+        <p>O método de precificação que faz o cliente pagar mais sem reclamar. Pare de competir por preço com a oficina da esquina.</p>
+        <ul>
+          <li>Tabela de preços profissional pronta para usar</li>
+          <li>Como vender pacote completo (alinhamento + cambagem + cáster)</li>
+          <li>Script de atendimento que justifica o valor</li>
+          <li>Como nunca mais perder venda por preço</li>
+        </ul>
+        <div class="bonus-value">Valor: <s>R$ 197,00</s> <b>HOJE: GRÁTIS</b></div>
+      </div>
+      <div class="bonus">
+        <div class="bonus-tag">BÔNUS 02</div>
+        <h4>Como Atrair Mais Clientes Para a Oficina</h4>
+        <p>Estratégias práticas que enchem a agenda mesmo em mês fraco. Pare de depender de "boca a boca" e tenha fila de carro.</p>
+        <ul>
+          <li>Como aparecer em primeiro no Google Maps</li>
+          <li>Sistema de indicação que não depende de você</li>
+          <li>Parcerias com lojas de pneu e auto-elétrica</li>
+          <li>Fidelização: o cliente que volta 4x por ano</li>
+        </ul>
+        <div class="bonus-value">Valor: <s>R$ 247,00</s> <b>HOJE: GRÁTIS</b></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ OFFER ============ -->
+<section class="section offer-section" id="oferta">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-eyebrow">Oferta de lançamento</span>
+      <h2 class="section-title">Tudo isso por <em>menos de R$ 1 por dia</em><br/>no primeiro ano</h2>
+      <p class="section-sub">Um único alinhamento bem cobrado <b>já paga o curso inteiro</b>. O resto é lucro pra sempre.</p>
+    </div>
+
+    <div class="offer-card">
+      <div class="offer-tag">OFERTA POR TEMPO LIMITADO</div>
+      <h3 class="offer-title">Curso Completo de<br/>Geometria Veicular + 2 Bônus</h3>
+      <p class="offer-sub">Acesso vitalício · Atualizações grátis · Suporte direto</p>
+
+      <div class="offer-stack">
+        <ul>
+          <li><span>Módulo 01 — Alinhamento Dianteiro</span><b>R$ 197</b></li>
+          <li><span>Módulo 02 — Alinhamento Traseiro</span><b>R$ 197</b></li>
+          <li><span>Módulo 03 — Cambagem Completa</span><b>R$ 197</b></li>
+          <li><span>Módulo 04 — Cáster Profissional</span><b>R$ 197</b></li>
+          <li><span>Módulo 05 — Diagnóstico Avançado</span><b>R$ 147</b></li>
+          <li><span>Módulo 06 — Casos Reais de Oficina</span><b>R$ 147</b></li>
+          <li><span>Bônus 01 — Como Cobrar Bem</span><b>R$ 197</b></li>
+          <li><span>Bônus 02 — Atraindo Mais Clientes</span><b>R$ 247</b></li>
+        </ul>
+        <div class="total"><span>Valor real do conteúdo</span><b>R$ 1.526</b></div>
+      </div>
+
+      <div class="offer-price-block">
+        <div class="offer-de">De <s>R$ 1.526,00</s> · você não paga nem 20% disso hoje:</div>
+        <div class="offer-por">12X DE APENAS</div>
+        <div class="offer-installment">R$ 30,<span class="vir">72</span><small>/mês</small></div>
+        <div class="offer-cash">ou <b>R$ 297,00</b> à vista no PIX</div>
+        <div class="offer-perday">Menos de R$ 1,00 por dia no primeiro ano</div>
+      </div>
+
+      <a href="https://pay.kiwify.com.br/DPnipGh" target="_blank" rel="noopener" class="offer-cta" data-cta="offer-main">
+        QUERO ENTRAR AGORA
+        <small>Acesso imediato · Garantia incondicional de 7 dias</small>
+      </a>
+
+      <div class="offer-paymethods">
+        <span class="pay-chip">PIX</span>
+        <span class="pay-chip">Cartão 12x</span>
+        <span class="pay-chip">Boleto</span>
+      </div>
+
+      <div class="offer-trust">
+        <span class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l8 4v6c0 5-3.5 9-8 10-4.5-1-8-5-8-10V6l8-4z"/></svg>Compra 100% segura</span>
+        <span class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12l5 5 9-9"/></svg>Garantia 7 dias</span>
+        <span class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>Acesso imediato</span>
+      </div>
+    </div>
+
+    <!-- GUARANTEE -->
+    <div class="guarantee">
+      <div class="seal">
+        <div class="seal-inner"><b>7</b><span>Dias de Garantia</span></div>
+      </div>
+      <div class="guarantee-content">
+        <h4>Risco zero. <span style="color:var(--green)">A garantia é toda nossa.</span></h4>
+        <p>Entre, assista, aplique. Se em <b>7 dias</b> você sentir que o curso não é pra você — por qualquer motivo — devolvemos <b>100% do seu dinheiro</b>. Sem perguntas, sem burocracia, sem desconforto. Você só tem a ganhar.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section" style="background:var(--bg-2);border-top:1px solid var(--line)">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-eyebrow">Tira-dúvidas final</span>
+      <h2 class="section-title">As <em>perguntas que sempre chegam</em></h2>
+    </div>
+
+    <div class="faq-list">
+      <details class="faq" open>
+        <summary>Por quanto tempo terei acesso ao curso?</summary>
+        <p>O acesso é <b>vitalício</b>. Pagou uma vez, assiste pra sempre — incluindo todas as atualizações futuras do conteúdo, sem custo adicional.</p>
+      </details>
+      <details class="faq">
+        <summary>Funciona para quem está começando agora?</summary>
+        <p>Sim. As aulas começam do básico — você não precisa ter experiência prévia em geometria. Mas o conteúdo também avança até técnicas que mecânicos com 20 anos de oficina ainda não dominam. <b>Iniciantes e veteranos saem ganhando.</b></p>
+      </details>
+      <details class="faq">
+        <summary>Preciso ter alinhador na oficina?</summary>
+        <p>Não obrigatoriamente. Boa parte do curso ensina diagnóstico que você faz com régua e nível. Quem tem alinhador aprende a tirar 100% do equipamento. Quem não tem, aprende a justificar a compra com retorno garantido em até 60 dias.</p>
+      </details>
+      <details class="faq">
+        <summary>Como recebo o acesso depois da compra?</summary>
+        <p>Logo após o pagamento aprovado você recebe os dados de acesso por e-mail — em até 5 minutos. Pode assistir pelo celular, computador ou tablet, onde estiver.</p>
+      </details>
+      <details class="faq">
+        <summary>Posso parcelar?</summary>
+        <p>Sim. Parcelamos em <b>até 12x no cartão</b>. Ou pague à vista no PIX por R$ 297 e tenha acesso instantâneo.</p>
+      </details>
+      <details class="faq">
+        <summary>E se eu não gostar do curso?</summary>
+        <p>Você tem <b>7 dias de garantia incondicional</b>. Se sentir que não é pra você, basta enviar um e-mail e devolvemos 100% do valor. Sem perguntas.</p>
+      </details>
+      <details class="faq">
+        <summary>Quanto tempo até começar a aplicar na oficina?</summary>
+        <p>A maioria dos alunos começa a aplicar <b>já na primeira semana</b>. O conteúdo é direto, prático, gravado dentro da oficina. Você assiste, vai pra bancada e faz.</p>
+      </details>
+      <details class="faq">
+        <summary>O conteúdo serve para carros modernos e antigos?</summary>
+        <p>Sim. O método cobre nacionais, importados, populares, SUVs, picapes, rebaixados e modificados. Cada caso é tratado dentro do módulo certo — você aprende a adaptar.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FINAL CTA ============ -->
+<section class="final-cta">
+  <div class="container">
+    <h2>Daqui a 30 dias você vai estar<br/><em>cobrando R$ 280</em> — ou ainda mandando o carro pra outra oficina?</h2>
+    <p>A escolha é sua. O preço de hoje só existe enquanto o cronômetro estiver rodando. Depois disso, sobe pra R$ 597 e os bônus saem do ar. <b>Seu próximo cliente já tá no caminho.</b></p>
+    <a href="https://pay.kiwify.com.br/DPnipGh" target="_blank" rel="noopener" class="btn-buy" data-cta="final">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-9"/></svg>
+      QUERO ENTRAR ANTES QUE FECHE
+    </a>
+    <p style="margin-top:20px;font-size:12px">12x R$ 30,72 · ou R$ 297 à vista no PIX · Garantia 7 dias</p>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="container">
+    <div class="logo-footer"><img src="assets/logo-megaplub.png" alt="Escola Megap+Lub" /></div>
+    <p>Escola Megap+Lub — Alavancando Oficinas. O treinamento profissional para mecânicos que querem dominar a geometria veicular e transformar a oficina no negócio mais lucrativo da região.</p>
+    <div class="legal">
+      <span>© 2026 Escola Megap+Lub</span>
+      <span>·</span>
+      <span>Todos os direitos reservados</span>
+      <span>·</span>
+      <span>Pagamento processado por Kiwify</span>
+    </div>
+    <p style="margin-top:8px;font-size:11px;opacity:0.7">Este site não é afiliado ao Facebook ou a qualquer entidade do Facebook. Após sair do Facebook, a responsabilidade pelo site é nossa. Os resultados apresentados são de alunos reais e dependem do nível de aplicação individual.</p>
+  </div>
+</footer>
+
+<!-- ============ SOCIAL PROOF POPUP ============ -->
+<div class="proof-popup" id="proof">
+  <div class="proof-avatar" id="proof-avatar">A</div>
+  <div class="proof-text">
+    <div class="name" id="proof-name">Carlos M. <b>· acabou de comprar</b></div>
+    <div class="meta"><span class="city" id="proof-city">São Paulo / SP</span> · <span id="proof-time">há 2 minutos</span></div>
+  </div>
+  <button class="proof-close" id="proof-close" aria-label="Fechar">×</button>
+</div>
+
+<!-- ============ STICKY MOBILE CTA ============ -->
+<div class="sticky-cta" id="sticky">
+  <a href="https://pay.kiwify.com.br/DPnipGh" target="_blank" rel="noopener" data-cta="sticky">
+    <span>QUERO ENTRAR AGORA</span>
+    <span class="price">· 12x R$ 30,72</span>
+  </a>
+</div>
+
+<script>
+/* ============ COUNTDOWN (7 dias persistente) ============ */
+(function(){
+  var KEY='gv_deadline_v2';
+  var deadline = parseInt(localStorage.getItem(KEY) || '0', 10);
+  var now = Date.now();
+  if(!deadline || deadline < now){
+    deadline = now + 7*24*60*60*1000;
+    localStorage.setItem(KEY, String(deadline));
+  }
+  var dEl=document.getElementById('cd-d'),hEl=document.getElementById('cd-h'),
+      mEl=document.getElementById('cd-m'),sEl=document.getElementById('cd-s'),
+      barEl=document.getElementById('bar-timer');
+  function pad(n){return String(n).padStart(2,'0')}
+  function tick(){
+    var diff = Math.max(0, deadline - Date.now());
+    var d = Math.floor(diff/86400000),
+        h = Math.floor((diff%86400000)/3600000),
+        m = Math.floor((diff%3600000)/60000),
+        s = Math.floor((diff%60000)/1000);
+    if(dEl) dEl.textContent = pad(d);
+    if(hEl) hEl.textContent = pad(h);
+    if(mEl) mEl.textContent = pad(m);
+    if(sEl) sEl.textContent = pad(s);
+    if(barEl) barEl.textContent = pad(d)+'d '+pad(h)+'h '+pad(m)+'m '+pad(s)+'s';
+  }
+  tick();setInterval(tick,1000);
+})();
+
+/* ============ DECREASING SEATS COUNTER ============ */
+(function(){
+  var SK='gv_seats_v1', SK_T='gv_seats_t_v1';
+  var seats = parseInt(localStorage.getItem(SK) || '0', 10);
+  var lastT = parseInt(localStorage.getItem(SK_T) || '0', 10);
+  var now = Date.now();
+  if(!seats || seats < 12){ seats = 37 + Math.floor(Math.random()*6); }
+  // 1 seat off every 18-40 minutes since last visit
+  if(lastT){
+    var elapsedMin = (now-lastT)/60000;
+    var dec = Math.floor(elapsedMin/(20+Math.random()*20));
+    seats = Math.max(12, seats - dec);
+  }
+  localStorage.setItem(SK, String(seats));
+  localStorage.setItem(SK_T, String(now));
+  var seatEl = document.getElementById('seats-left');
+  var fillEl = document.getElementById('seats-fill');
+  function paint(){
+    if(seatEl) seatEl.textContent = seats;
+    if(fillEl) fillEl.style.width = Math.max(8, Math.min(95, 100-(seats/200*100))) + '%';
+  }
+  paint();
+  // occasionally drop a seat live
+  setInterval(function(){
+    if(seats <= 12) return;
+    if(Math.random() < 0.18){
+      seats--;
+      localStorage.setItem(SK, String(seats));
+      localStorage.setItem(SK_T, String(Date.now()));
+      paint();
+    }
+  }, 45000);
+})();
+
+/* ============ SOCIAL PROOF POPUPS ============ */
+(function(){
+  var buyers = [
+    {name:'Carlos M.',city:'São Paulo / SP',i:'C'},{name:'Anderson R.',city:'Belo Horizonte / MG',i:'A'},
+    {name:'Rafael S.',city:'Curitiba / PR',i:'R'},{name:'Bruno T.',city:'Porto Alegre / RS',i:'B'},
+    {name:'Diego P.',city:'Salvador / BA',i:'D'},{name:'Marcelo L.',city:'Recife / PE',i:'M'},
+    {name:'Thiago A.',city:'Fortaleza / CE',i:'T'},{name:'Vinicius F.',city:'Brasília / DF',i:'V'},
+    {name:'Eduardo C.',city:'Joinville / SC',i:'E'},{name:'Gustavo N.',city:'Manaus / AM',i:'G'},
+    {name:'Wagner B.',city:'Goiânia / GO',i:'W'},{name:'Henrique P.',city:'Vitória / ES',i:'H'},
+    {name:'Leandro D.',city:'Campinas / SP',i:'L'},{name:'Fábio R.',city:'Uberlândia / MG',i:'F'},
+    {name:'Sandro M.',city:'Maringá / PR',i:'S'},{name:'Igor V.',city:'Natal / RN',i:'I'},
+    {name:'Júlio C.',city:'Cuiabá / MT',i:'J'},{name:'Otávio L.',city:'Florianópolis / SC',i:'O'},
+    {name:'Roberto F.',city:'Aracaju / SE',i:'R'},{name:'Paulo H.',city:'Belém / PA',i:'P'},
+    {name:'Cláudio S.',city:'Ribeirão Preto / SP',i:'C'},{name:'Adriano K.',city:'São Luís / MA',i:'A'}
+  ];
+  var times = ['há 1 minuto','há 2 minutos','há 3 minutos','há 5 minutos','há 8 minutos','há 12 minutos','há 16 minutos','há 22 minutos','há 31 minutos','há 44 minutos'];
+  var pop = document.getElementById('proof');
+  var nameEl = document.getElementById('proof-name'),
+      cityEl = document.getElementById('proof-city'),
+      timeEl = document.getElementById('proof-time'),
+      avEl = document.getElementById('proof-avatar'),
+      closeEl = document.getElementById('proof-close');
+  var dismissed = false;
+  closeEl.addEventListener('click', function(){pop.classList.remove('show');dismissed=true});
+  function show(){
+    if(dismissed) return;
+    var b = buyers[Math.floor(Math.random()*buyers.length)];
+    var t = times[Math.floor(Math.random()*times.length)];
+    nameEl.innerHTML = b.name + ' <b>· acabou de comprar</b>';
+    cityEl.textContent = b.city;
+    timeEl.textContent = t;
+    avEl.textContent = b.i;
+    pop.classList.add('show');
+    setTimeout(function(){
+      pop.classList.remove('show');
+      setTimeout(show, 8000 + Math.random()*8000);
+    }, 5500);
+  }
+  setTimeout(show, 5000);
+})();
+
+/* ============ STICKY MOBILE CTA ============ */
+(function(){
+  var sticky = document.getElementById('sticky');
+  function check(){
+    if(window.scrollY > 500) sticky.classList.add('visible');
+    else sticky.classList.remove('visible');
+  }
+  window.addEventListener('scroll', check, {passive:true});
+  check();
+})();
+
+/* ============ REVEAL ON SCROLL ============ */
+(function(){
+  var els = document.querySelectorAll('.section, .pain, .module, .testi, .bonus, .offer-card, .guarantee, .for-card, .promise, .inline-cta');
+  els.forEach(function(e){e.classList.add('reveal')});
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(ent){
+      if(ent.isIntersecting){ent.target.classList.add('in');io.unobserve(ent.target)}
+    });
+  },{threshold:0.08, rootMargin:'0px 0px -40px 0px'});
+  els.forEach(function(e){io.observe(e)});
+})();
+
+/* ============ CTA TRACKING ============ */
+(function(){
+  document.querySelectorAll('[data-cta]').forEach(function(el){
+    el.addEventListener('click', function(){
+      var src = el.getAttribute('data-cta');
+      try{
+        if(window.fbq) fbq('track','InitiateCheckout',{content_name:'Curso Geometria Veicular', source:src, value:297.00, currency:'BRL'});
+      }catch(e){}
+    });
+  });
+})();
+
+/* ============ EXIT INTENT (desktop) ============ */
+(function(){
+  if(window.matchMedia('(max-width:760px)').matches) return;
+  var fired = false;
+  document.addEventListener('mouseout', function(e){
+    if(fired) return;
+    if(!e.relatedTarget && e.clientY < 5){
+      fired = true;
+      try{ if(window.fbq) fbq('track','Lead',{content_name:'Exit Intent'}); }catch(e){}
+      var oferta = document.getElementById('oferta');
+      if(oferta) oferta.scrollIntoView({behavior:'smooth',block:'start'});
+    }
+  });
+})();
+</script>
+
+</body>
+</html>
