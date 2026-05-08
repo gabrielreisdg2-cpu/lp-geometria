@@ -148,7 +148,7 @@
   .logo-word b{font-family:'Bebas Neue';font-size:18px;letter-spacing:0.04em;color:var(--ink);white-space:nowrap}
   .logo-word b em{color:var(--orange);font-style:normal}
   .logo-word small{font-size:9px;letter-spacing:0.16em;color:var(--ink-mute);text-transform:uppercase;margin-top:2px;white-space:nowrap}
-  @media(max-width:380px){.logo img{height:44px}.logo-word b{font-size:16px}.logo-word small{font-size:8.5px;letter-spacing:0.12em}}
+  @media(max-width:380px){.logo img{height:32px}.logo-word b{font-size:14px}.logo-word small{font-size:7px;letter-spacing:0.12em}}
   @media(min-width:520px){.logo img{height:60px}.logo-word b{font-size:20px}.logo-word small{font-size:10px}}
   .nav-cta{
     background:linear-gradient(180deg,var(--green),var(--green-2));color:#04130a;font-weight:900;font-size:12px;
@@ -1158,8 +1158,8 @@
 
       <div class="offer-price-block">
         <div class="offer-de">De <s>R$ 1.526,00</s> · você não paga nem 10% disso hoje:</div>
-        <div class="offer-por">10X DE APENAS</div>
-        <div class="offer-installment">R$ 17,<span class="vir">61</span><small>/mês</small></div>
+        <div class="offer-por">12X DE APENAS</div>
+        <div class="offer-installment">R$ 15,<span class="vir">51</span><small>/mês</small></div>
         <div class="offer-cash">ou <b>R$ 150,00</b> à vista no PIX</div>
         <div class="offer-perday">Menos de R$ 0,50 por dia no primeiro ano</div>
       </div>
@@ -1171,7 +1171,7 @@
 
       <div class="offer-paymethods">
         <span class="pay-chip">PIX</span>
-        <span class="pay-chip">Cartão até 10x</span>
+        <span class="pay-chip">Cartão até 12x</span>
         <span class="pay-chip">Boleto</span>
       </div>
 
@@ -1288,15 +1288,16 @@
 </div>
 
 <script>
-/* ============ COUNTDOWN (7 dias persistente) ============ */
+/* ============ COUNTDOWN (Diário - reset às 00:00) ============ */
 (function(){
-  var KEY='gv_deadline_v2';
-  var deadline = parseInt(localStorage.getItem(KEY) || '0', 10);
+  var KEY='gv_deadline_daily';
   var now = Date.now();
-  if(!deadline || deadline < now){
-    deadline = now + 7*24*60*60*1000;
-    localStorage.setItem(KEY, String(deadline));
-  }
+  var today = new Date(now);
+  today.setHours(0, 0, 0, 0);
+  var tomorrow = new Date(today);
+  tomorrow.setDate(tomorrow.getDate() + 1);
+  var deadline = tomorrow.getTime();
+  localStorage.setItem(KEY, String(deadline));
   var dEl=document.getElementById('cd-d'),hEl=document.getElementById('cd-h'),
       mEl=document.getElementById('cd-m'),sEl=document.getElementById('cd-s'),
       barEl=document.getElementById('bar-timer');
